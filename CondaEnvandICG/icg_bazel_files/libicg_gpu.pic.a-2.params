@@ -1,0 +1,5 @@
+rcsD
+bazel-out/k8-opt/bin/tensorflow/core/user_ops/libicg_gpu.pic.a
+bazel-out/k8-opt/bin/tensorflow/core/user_ops/_objs/icg_gpu/ffttools.cu.pic.o
+bazel-out/k8-opt/bin/tensorflow/core/user_ops/_objs/icg_gpu/definitions.cu.pic.o
+bazel-out/k8-opt/bin/tensorflow/core/user_ops/_objs/icg_gpu/activations.cu.pic.o

@@ -1,0 +1,5 @@
+org_tensorflow/_solib_local/_U_S_Stensorflow_Score_Suser_Uops_Cicg.so___Utensorflow/libtensorflow_framework.so.2 /home/cpm/.cache/bazel/_bazel_cpm/d583b0a8b40bf3bc4017845479a0d395/execroot/org_tensorflow/bazel-out/k8-opt/bin/_solib_local/_U_S_Stensorflow_Score_Suser_Uops_Cicg.so___Utensorflow/libtensorflow_framework.so.2
+org_tensorflow/tensorflow/core/user_ops/icg.so /home/cpm/.cache/bazel/_bazel_cpm/d583b0a8b40bf3bc4017845479a0d395/execroot/org_tensorflow/bazel-out/k8-opt/bin/tensorflow/core/user_ops/icg.so
+org_tensorflow/tensorflow/libtensorflow_framework.so /home/cpm/.cache/bazel/_bazel_cpm/d583b0a8b40bf3bc4017845479a0d395/execroot/org_tensorflow/bazel-out/k8-opt/bin/tensorflow/libtensorflow_framework.so
+org_tensorflow/tensorflow/libtensorflow_framework.so.2 /home/cpm/.cache/bazel/_bazel_cpm/d583b0a8b40bf3bc4017845479a0d395/execroot/org_tensorflow/bazel-out/k8-opt/bin/tensorflow/libtensorflow_framework.so.2
+org_tensorflow/tensorflow/libtensorflow_framework.so.2.3.0 /home/cpm/.cache/bazel/_bazel_cpm/d583b0a8b40bf3bc4017845479a0d395/execroot/org_tensorflow/bazel-out/k8-opt/bin/tensorflow/libtensorflow_framework.so.2.3.0
