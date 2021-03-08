@@ -30,9 +30,9 @@ actions.py - Implements the current actions we can take with a model to train,te
 
 call_model.py - Implements an easy way to train,test, and analyze new models in sequence via bash files
 
-losses.py - Stores custom loss functions for thr models. Only contains one for the TNRD model
+losses.py - Stores custom loss functions for the models. Only contains one for the TNRD model
 
-models.py - All the models we create have to have a similar structure so the models found in this directory inherit
+models.py - Contains implemented models. All the models we create have to have a similar structure so the models found in this directory inherit
     from the My_Model class found in My_Model.py. See both directories for more details
     
 My_Model.py - Contains main class for models. Every model we create inherits from this class
@@ -50,7 +50,7 @@ Directories:
    
    CondaEnvandICG - Contains compiled code from here: https://github.com/VLOGroup/denoising-variationalnetwork, which
     was the first implementation of TNRD in Tensorflow. They created customa CUDA/C++ code to implement the radial 
-    basis function activiations in TNRD. There code, however, is severly outdated.  In CondaEnvandICG I just store
+    basis function activiations in TNRD. Their code, however, is severly outdated.  In CondaEnvandICG I just store
     their CUDA/C++ code and a version I compiled to use with Tensorflow. If you want to know how to load custom
     compiled bazel code look in icg.python.ops.icg_ops.py. This directory also contains the current Conda environment
     I use for my research.
@@ -58,7 +58,7 @@ Directories:
    data - Stores the data I use for the different pipelines. Each data directory must contain a folder of images 
    to train, a folder of images to test, and a folder of images to analyze. Current data is only Train400Im68. These 
    are the standard 400 training images denoising models are usually first trained on, and the then the standard
-   set of im68 images these models are tested on. Metric for denoising is PSNR (stems from MSQE) and SSIM.
+   set of im68 images these models are usually tested on. Metric for denoising is PSNR (stems from MSQE) and SSIM.
    
    data_generators - This directory contains the different data pipelines. Only pipeline currently implemented is
     for Train400Im68. Every pipeline must have a data generator for the training. I liked the data generator used 
