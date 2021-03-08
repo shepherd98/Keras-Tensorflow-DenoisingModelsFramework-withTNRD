@@ -15,10 +15,6 @@ functions I have to get information about the model.
 Note: If you wish to use this code, in models.py and icg.python.ops.icg_ops.py change all occurrences of 
 {/home/cpm/Research/KfTNRD/2021/Denoising_Framework} to the path to the project
 
-
-Note: I did not upload the data to Github. Images must be put into the Train,Test, and Analysis Directories
-
-
 Also, here is a list of the directories and files plus explanations:
 
 
