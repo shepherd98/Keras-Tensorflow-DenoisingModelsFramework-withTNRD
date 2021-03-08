@@ -10,6 +10,7 @@ Nonlinear Reaction Diffusion (TNRD) model of Chen and Pock: https://arxiv.org/pd
 The implementation can be found in models.py. New models can also be easily defined there.
 
 
+## Purpose
 This work allows me to easily define new denoising models, train/test them, and analyze them. To see how a model is
 trained, please see the file example.sh, which gives commands for training a small TNRD model, and applying the different
 functions I have to get information about the model. 
