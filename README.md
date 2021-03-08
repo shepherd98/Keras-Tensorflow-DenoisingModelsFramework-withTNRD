@@ -1,5 +1,8 @@
+# Keras-Tensorflow-DenoisingModelsFramework-withTNRD
+
 Ryan Cecil, 2021, Duquesne University.
 
+## Summary
 This is a subset of the current code base that I use for 
 my research under Dr. Stacey Levine in her deep learning, computer vision, and image processing group to 
 train/test/analyze new models. The current code gives a Keras-Tensorflow implementation of the Trainable 
@@ -15,7 +18,9 @@ functions I have to get information about the model.
 Note: If you wish to use this code, in models.py and icg.python.ops.icg_ops.py change all occurrences of 
 {/home/cpm/Research/KfTNRD/2021/Denoising_Framework} to the path to the project
 
-Also, here is a list of the directories and files plus explanations:
+## Code Overview
+
+Here is a list of the directories and files plus explanations:
 
 
 Files:
