@@ -4,7 +4,7 @@ Ryan Cecil, 2021, Duquesne University.
 
 ## Summary
 This is a subset of the current code base that I use for 
-my research under Dr. Stacey Levine in her deep learning, computer vision, and image processing group to 
+my research under Dr. Stacey Levine in her deep learning, computer vision, and image processing group at Duquesne University to 
 train/test/analyze new models. The current code gives a Keras-Tensorflow implementation of the Trainable 
 Nonlinear Reaction Diffusion (TNRD) model of Chen and Pock: https://arxiv.org/pdf/1508.02848.pdf
 The implementation can be found in models.py. New models can also be easily defined there.
