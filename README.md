@@ -1,4 +1,4 @@
-Name: Ryan Cecil. Year: 2021
+Ryan Cecil, 2021, Duquesne University.
 
 This is a subset of the current code base that I use for 
 my research under Dr. Stacey Levine in her deep learning, computer vision, and image processing group to 
