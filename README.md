@@ -1,7 +1,6 @@
 Name: Ryan Cecil. Year: 2021
 
-Recently, I have found myself needing to create a lot of 
-new denoising models and analyzing them to gain information. This is a subset of the current code base that I use for 
+This is a subset of the current code base that I use for 
 my research under Dr. Stacey Levine in her deep learning, computer vision, and image processing group to 
 train/test/analyze new models. The current code only gives a Keras-Tensorflow implementation of the Trainable 
 Nonlinear Reaction Diffusion (TNRD) model of Chen and Pock: https://arxiv.org/pdf/1508.02848.pdf
