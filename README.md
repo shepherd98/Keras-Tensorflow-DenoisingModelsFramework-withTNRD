@@ -2,7 +2,7 @@ Name: Ryan Cecil. Year: 2021
 
 This is a subset of the current code base that I use for 
 my research under Dr. Stacey Levine in her deep learning, computer vision, and image processing group to 
-train/test/analyze new models. The current code only gives a Keras-Tensorflow implementation of the Trainable 
+train/test/analyze new models. The current code gives a Keras-Tensorflow implementation of the Trainable 
 Nonlinear Reaction Diffusion (TNRD) model of Chen and Pock: https://arxiv.org/pdf/1508.02848.pdf
 The implementation can be found in models.py. New models can also be easily defined there.
 
