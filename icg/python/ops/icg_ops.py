@@ -5,7 +5,7 @@ import tensorflow as tf
 
 #Must be modified to match system
 icg_module = tf.load_op_library(
-        './icg.so')
+        '/home/zsz/TestGit/Keras-Tensorflow-DenoisingModelsFramework-withTNRD/icg/python/ops/icg.so')
 
 fftshift2d = icg_module.fftshift2d
 ifftshift2d = icg_module.ifftshift2d
