@@ -39,12 +39,12 @@ class Model_Name(My_Model):
         return model
 
     def get_model_dir(self):
-        model_dir = '/home/cpm/Research/KfTNRD/2021/Denoising_Framework/saved_models/{model_dir}'
+        model_dir = '/home/zsz/TestGit/Keras-Tensorflow-DenoisingModelsFramework-withTNRD/saved_models/{model_dir}'
         Path(model_dir).mkdir(parents=True, exist_ok=True)
         return model_dir
 
     def get_results_dir(self):
-        results_dir = '/home/cpm/Research/KfTNRD/2021/Denoising_Framework/model_results/{model_results_dir}'
+        results_dir = '/home/zsz/TestGit/Keras-Tensorflow-DenoisingModelsFramework-withTNRD/model_results/{model_results_dir}'
         Path(results_dir).mkdir(parents=True, exist_ok=True)
         return results_dir
 
@@ -154,12 +154,12 @@ class TNRD(My_Model):
 
     #Define where model will be saved
     def get_model_dir(self):
-        model_dir = '/home/cpm/Research/KfTNRD/2021/Denoising_Framework/saved_models/TNRD/TNRD'
+        model_dir = '/home/zsz/TestGit/Keras-Tensorflow-DenoisingModelsFramework-withTNRD/saved_models/TNRD/TNRD'
         return model_dir
 
     #Define where model results will be stored
     def get_results_dir(self):
-        results_dir = '/home/cpm/Research/KfTNRD/2021/Denoising_Framework/model_results/TNRD/TNRD'
+        results_dir = '/home/zsz/TestGit/Keras-Tensorflow-DenoisingModelsFramework-withTNRD/model_results/TNRD/TNRD'
         return results_dir
 
     #Define where model will be saved and results will be stored depending on the different settings of the model
